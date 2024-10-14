@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BeatCounter : MonoBehaviour
 {
+
+    //TED
     public float beat = 120f;
     public int timeInBeat;
     public bool thingsCanHappen = false;
