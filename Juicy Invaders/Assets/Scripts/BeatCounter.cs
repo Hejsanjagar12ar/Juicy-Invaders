@@ -9,7 +9,9 @@ public class BeatCounter : MonoBehaviour
     public float beat = 120f;
     public int timeInBeat;
     public bool thingsCanHappen = false;
-    
+
+    [SerializeField] private AudioClip beatSFX;
+     
     void FixedUpdate()
     {
         timeInBeat += 1;
@@ -18,8 +20,10 @@ public class BeatCounter : MonoBehaviour
         {
             timeInBeat = 0;
 
-            Debug.Log("TIME IS NOW 30");
+            //play sound (maybe it sounds like a metronome if im lucky enough
+            SoundFXManager.instance.PlaySoundFXclip(beatSFX, transform, 1f);
 
+            Debug.Log("TIME IS NOW 30");
         }
     }
 }
