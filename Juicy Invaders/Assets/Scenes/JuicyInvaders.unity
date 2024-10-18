@@ -2671,6 +2671,7 @@ MonoBehaviour:
   beat: 120
   timeInBeat: 0
   thingsCanHappen: 0
+  beatSFX: {fileID: 0}
 --- !u!4 &1686026988
 Transform:
   m_ObjectHideFlags: 0
