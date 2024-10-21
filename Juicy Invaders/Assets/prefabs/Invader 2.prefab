@@ -8,6 +8,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3927893727351069429, guid: 9078e80d59611f94c8e7a365895eced2, type: 3}
+      propertyPath: animationTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3927893727351069429, guid: 9078e80d59611f94c8e7a365895eced2, type: 3}
+      propertyPath: animationSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: d69a2a3dfb8a55f4692006199804e0f4, type: 3}
+    - target: {fileID: -3927893727351069429, guid: 9078e80d59611f94c8e7a365895eced2, type: 3}
+      propertyPath: animationSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: b025575fd28e23f4e9338148acdb35ae, type: 3}
     - target: {fileID: 1986548400022622565, guid: 9078e80d59611f94c8e7a365895eced2, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 1.375

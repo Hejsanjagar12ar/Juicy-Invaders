@@ -16,6 +16,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2396338977534089541, guid: 3fd549d1961e8024889fb6a0c177e32d, type: 3}
+      propertyPath: animationSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: a21ffc1aacbfb264cb712d698959af47, type: 3}
+    - target: {fileID: 2396338977534089541, guid: 3fd549d1961e8024889fb6a0c177e32d, type: 3}
+      propertyPath: animationSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9d9116814550f554aae5d0ce37fc982b, type: 3}
     - target: {fileID: 3592497115432509375, guid: 3fd549d1961e8024889fb6a0c177e32d, type: 3}
       propertyPath: m_Sprite
       value: 

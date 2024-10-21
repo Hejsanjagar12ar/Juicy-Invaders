@@ -988,7 +988,7 @@ Transform:
   m_GameObject: {fileID: 431794270}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2543,6 +2543,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1401555232}
   - component: {fileID: 1401555231}
+  - component: {fileID: 1401555233}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -2578,6 +2579,23 @@ Transform:
   - {fileID: 797488490}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1401555233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401555230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40077454da3674408e79b383baadfc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab:
+  - {fileID: -3927893727351069429, guid: 9078e80d59611f94c8e7a365895eced2, type: 3}
+  - {fileID: 2396338977534089541, guid: 3fd549d1961e8024889fb6a0c177e32d, type: 3}
+  - {fileID: 3317242889879067862, guid: 100507185d433854d9e77588eaf40375, type: 3}
+  missilePrefab: {fileID: 8577266933554580070, guid: a1e39103c0aa30d4ebcae0966732d1ed, type: 3}
 --- !u!1 &1527628116
 GameObject:
   m_ObjectHideFlags: 0

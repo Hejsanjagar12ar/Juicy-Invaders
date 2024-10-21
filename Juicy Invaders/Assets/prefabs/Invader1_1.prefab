@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6478373064658576369}
   - component: {fileID: 1986548400022622565}
   - component: {fileID: 183449674062241751}
-  - component: {fileID: -9005273982242664042}
+  - component: {fileID: -3927893727351069429}
   m_Layer: 0
   m_Name: Invader1_1
   m_TagString: Untagged
@@ -159,7 +159,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-9005273982242664042
+--- !u!114 &-3927893727351069429
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,6 +168,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7093094939483722939}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b40077454da3674408e79b383baadfc2, type: 3}
+  m_Script: {fileID: 11500000, guid: 792499b3f7dad324699527e4a79752cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animationSprites:
+  - {fileID: 21300000, guid: 5aa65947e02c4014aa9ddf091d0422da, type: 3}
+  - {fileID: 21300000, guid: f7bfb47ed57fc744bb2862bbc7f21d37, type: 3}
+  animationTime: 1
