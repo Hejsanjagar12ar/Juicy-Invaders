@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEngine.RuleTile.TilingRuleOutput;
 
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -27,7 +26,7 @@ public class Laser : Projectile
     {
         Bunker bunker = collision.gameObject.GetComponent<Bunker>();
 
-        if (bunker == null) //Om det inte är en bunker vi träffat så ska skottet försvinna.
+        if(bunker == null) //Om det inte är en bunker vi träffat så ska skottet försvinna.
         {
             Destroy(gameObject);
         }

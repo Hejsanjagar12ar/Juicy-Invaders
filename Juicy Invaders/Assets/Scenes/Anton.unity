@@ -245,7 +245,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e57ea605cb619bd4c9fdc7402743f14c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserPrefab: {fileID: 5774355193497109395, guid: fa19ea90067330b428ac7cecd24e92ef, type: 3}
+  bongoBullet: {fileID: 3959232897629146840, guid: a9a24e109efa8494fbb097b7d93dc05d, type: 3}
+  drumsBullet: {fileID: 14764177250191244, guid: 4f758f72501ed804484365b036317d02, type: 3}
+  guitarBullet: {fileID: 4005810527488271372, guid: fa19ea90067330b428ac7cecd24e92ef, type: 3}
+  saxBullet: {fileID: 5936500131219107128, guid: 721e45bb5fc629f4ca87b27e8e1a66d5, type: 3}
+  accordionBullet: {fileID: 983204578187007026, guid: 96a103d7c8604b04a8dd270a0d003d51, type: 3}
 --- !u!212 &1929152978
 SpriteRenderer:
   m_ObjectHideFlags: 0

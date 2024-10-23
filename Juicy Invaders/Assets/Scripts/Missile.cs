@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEngine.RuleTile.TilingRuleOutput;
 
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -12,7 +11,7 @@ public class Missile : Projectile
     {
         direction = Vector3.down;
     }
-
+   
     void Update()
     {
         transform.position += speed * Time.deltaTime * direction;
@@ -22,5 +21,5 @@ public class Missile : Projectile
     {
         Destroy(gameObject); //så fort den krockar med något så ska den försvinna.
     }
-
+   
 }
