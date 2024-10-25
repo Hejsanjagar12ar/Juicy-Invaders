@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] public float moveSpeed = 5f;
     [SerializeField] public Transform movePoint;
+    [SerializeField] private AudioSource shipMoveSFX;
 
     // Start is called before the first frame update
     void Start()
