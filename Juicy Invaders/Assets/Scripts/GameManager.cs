@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     private PlayerMovement player;
     private Invaders invaders;
     private Bunker[] bunkers;
+    private CameraShake cameraShake;
+
 
     //Används ej just nu, men ni kan använda de senare
     public int score { get; private set; } = 0;
@@ -41,7 +43,7 @@ public class GameManager : MonoBehaviour
         player = FindObjectOfType<PlayerMovement>();
         invaders = FindObjectOfType<Invaders>();
         bunkers = FindObjectsOfType<Bunker>();
-
+        cameraShake = FindObjectOfType<CameraShake>();
         NewGame();
     }
 
@@ -108,7 +110,7 @@ public class GameManager : MonoBehaviour
     {
         invader.gameObject.SetActive(false);
 
-        
+        StartCoroutine(cameraShake.Shake(0.5f, 0.2f));
 
         if (invaders.GetInvaderCount() == 0)
         {
