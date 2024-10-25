@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
 
     //Används ej just nu, men ni kan använda de senare
     public int score { get; private set; } = 0;
-    public int lives { get; private set; } = 3;
+    public int lives { get; private set; }
 
     private void Awake()
     {
@@ -94,7 +94,7 @@ public class GameManager : MonoBehaviour
 
     private void SetLives(int lives)
     {
-
+        lives = lives;
     }
 
     public void OnPlayerKilled(PlayerMovement player)
@@ -108,7 +108,7 @@ public class GameManager : MonoBehaviour
     {
         invader.gameObject.SetActive(false);
 
-
+        
 
         if (invaders.GetInvaderCount() == 0)
         {

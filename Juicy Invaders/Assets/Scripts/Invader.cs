@@ -1,4 +1,5 @@
 
+using Unity.VisualScripting;
 using UnityEngine;
 
 
@@ -8,6 +9,7 @@ using UnityEngine;
 
 public class Invader : MonoBehaviour
 {
+    int enemyHealth = 10;
     public Sprite[] animationSprites = new Sprite[2];
     public float animationTime;
 
@@ -40,13 +42,22 @@ public class Invader : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Laser"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Bongo"))
         {
-            GameManager.Instance.OnInvaderKilled(this);
+            enemyHealth = -2;
+          
         }
         else if (collision.gameObject.layer == LayerMask.NameToLayer("Boundary")) //nått nedre kanten
         {
             GameManager.Instance.OnBoundaryReached();
+        }
+    }
+
+    private void Update()
+    {
+        if (enemyHealth < 1)
+        {
+            GameManager.Instance.OnInvaderKilled(this);
         }
     }
 
