@@ -19,10 +19,6 @@ public class BeatCounter : MonoBehaviour
         if (timeInBeat == 30)
         {
             timeInBeat = 0;
-
-            //play sound (maybe it sounds like a metronome if im lucky enough
-            SoundFXManager.instance.PlaySoundFXclip(beatSFX, transform, 1f);
-
             Debug.Log("TIME IS NOW 30");
         }
     }
