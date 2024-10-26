@@ -6,51 +6,30 @@ public class ShootingScript : MonoBehaviour
 {
     
     //Daniel
-    
+    //Ted
+
     [SerializeField] 
     GameObject bongoBullet;
-
     [SerializeField]
     GameObject drumsBullet;
-
     [SerializeField]
     GameObject guitarBullet;
-
     [SerializeField]
     GameObject saxBullet;
-
     [SerializeField]
     GameObject accordionBullet;
-
     bool Bongo = true;
-
-    bool Drums = true;
-
-    bool Guitar = true;
-
-    bool Sax = true;
-
-    bool Accordion = true;
-
+    bool Drums = false;
+    bool Guitar = false;
+    bool Sax = false;
+    bool Accordion = false;
     float Timer = 0;
-
     int bongoCD;
-
     int drumsCD;
-
     int guitarCD;
-
     int saxCD;
-
     int accordionCD;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         Timer += Time.deltaTime;
