@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] public float moveSpeed = 5f;
     [SerializeField] public Transform movePoint;
-    [SerializeField] private AudioSource shipMoveSFX;
+    [SerializeField] private AudioClip shipMoveSFX;
 
     
     BeatCounter bc;
@@ -49,6 +49,7 @@ public class PlayerMovement : MonoBehaviour
             
             if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1)
             {
+                SoundFXManager.instance.PlaySoundFXclip(shipMoveSFX, transform, 1f);
                 movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
             }                  
         }

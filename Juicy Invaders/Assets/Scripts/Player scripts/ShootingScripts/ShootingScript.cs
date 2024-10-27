@@ -6,7 +6,6 @@ public class ShootingScript : MonoBehaviour
 {
     //Ted
     //Anton
-    //Daniel
 
     [SerializeField] GameObject bongoBullet;
     [SerializeField] GameObject drumsBullet;
@@ -46,7 +45,7 @@ public class ShootingScript : MonoBehaviour
         {
             if (bc.timeInBeat == 27)
             {
-                SoundFXManager.instance.PlaySoundFXclip(drumsShootSFX, transform, 1f);
+                SoundFXManager.instance.PlaySoundFXclip(drumsShootSFX, transform, 0.2f);
                 Instantiate(drumsBullet, transform.position + new Vector3(0, 1, 0), Quaternion.identity);
             }
         }
@@ -55,17 +54,17 @@ public class ShootingScript : MonoBehaviour
         {
             if (bc.timeInBeat == 10)
             {
-                SoundFXManager.instance.PlaySoundFXclip(guitarShootSFX, transform, 1f);
+                SoundFXManager.instance.PlaySoundFXclip(guitarShootSFX, transform, 0.2f);
                 Instantiate(guitarBullet, transform.position + new Vector3(1, 1, 0), Quaternion.identity);
             }
             else if (bc.timeInBeat == 20)
             {
-                SoundFXManager.instance.PlaySoundFXclip(guitarShootSFX, transform, 1f);
+                SoundFXManager.instance.PlaySoundFXclip(guitarShootSFX, transform, 0.2f);
                 Instantiate(guitarBullet, transform.position + new Vector3(0, 1, 0), Quaternion.identity);
             }
             else if (bc.timeInBeat == 30)
             {
-                SoundFXManager.instance.PlaySoundFXclip(guitarShootSFX, transform, 1f);
+                SoundFXManager.instance.PlaySoundFXclip(guitarShootSFX, transform, 0.2f);
                 Instantiate(guitarBullet, transform.position + new Vector3(-1, 1, 0), Quaternion.identity);
             }
         }
@@ -74,12 +73,12 @@ public class ShootingScript : MonoBehaviour
         {
             if (bc.timeInBeat == 10)
             {
-                SoundFXManager.instance.PlaySoundFXclip(saxShootSFX, transform, 1f);
+                SoundFXManager.instance.PlaySoundFXclip(saxShootSFX, transform, 0.2f);
                 Instantiate(saxBullet, transform.position + new Vector3(0.5f, 1, 0), Quaternion.identity);
             }
             else if (bc.timeInBeat == 20)
             {
-                SoundFXManager.instance.PlaySoundFXclip(saxShootSFX, transform, 1f);
+                SoundFXManager.instance.PlaySoundFXclip(saxShootSFX, transform, 0.2f);
                 Instantiate(saxBullet, transform.position + new Vector3(-0.5f, 1, 0), Quaternion.identity);
             }
         }
@@ -88,7 +87,7 @@ public class ShootingScript : MonoBehaviour
         {
             if (bc.timeInBeat == 25)
             {
-                SoundFXManager.instance.PlaySoundFXclip(accordionShootSFX, transform, 1f);
+                SoundFXManager.instance.PlaySoundFXclip(accordionShootSFX, transform, 0.2f);
                 Instantiate(accordionBullet, transform.position + new Vector3(0, 1, 0), Quaternion.identity);
             }
         }
