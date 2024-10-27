@@ -9,6 +9,8 @@ using UnityEngine;
 
 public class Invader : MonoBehaviour
 {
+    //Ted och clara?
+
     int enemyHealth = 10;
     public Sprite[] animationSprites = new Sprite[2];
     public float animationTime;
@@ -18,11 +20,11 @@ public class Invader : MonoBehaviour
     // Start is called before the first frame update
 
     //weapon dmg var
-    int Gdmg = 1;
-    int Sdmg = 1;
-    int Admg = 1;
-    int Bdmg = 1;
-    int Ddmg = 1;
+    public int Gdmg = 1;
+    public int Sdmg = 1;
+    public int Admg = 1;
+    public int Bdmg = 1;
+    public int Ddmg = 1;
 
     private void Awake()
     {

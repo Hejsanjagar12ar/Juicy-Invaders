@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BongoBullet : MonoBehaviour
 {
+    //daniel
+
     Rigidbody2D bongoBullet_rb;
 
     // Start is called before the first frame update

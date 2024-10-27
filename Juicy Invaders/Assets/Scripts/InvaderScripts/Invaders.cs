@@ -8,6 +8,7 @@ using UnityEngine;
 
 public class Invaders : MonoBehaviour
 {
+    //Clara och ted har tweakat
     public Invader[] prefab = new Invader[5];
 
     private int row = 5;

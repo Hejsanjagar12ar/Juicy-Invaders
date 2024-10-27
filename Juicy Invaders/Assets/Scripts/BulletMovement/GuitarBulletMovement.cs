@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GuitarBulletMovement : MonoBehaviour
 {
+    //daniel
+
     float Timer = 0;
 
     bool Exist = false;

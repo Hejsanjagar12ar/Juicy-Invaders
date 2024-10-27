@@ -7,6 +7,8 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider2D))]
 public class Laser : Projectile
 {
+    //Clara
+
     private void Awake()
     {
         direction = Vector3.up;
