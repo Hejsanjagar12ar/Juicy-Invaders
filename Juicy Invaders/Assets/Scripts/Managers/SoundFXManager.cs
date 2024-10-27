@@ -32,18 +32,14 @@ public class SoundFXManager : MonoBehaviour
         //spawn in gameObject
         AudioSource audioSource = Instantiate(soundFXObject, spawnTransform.position, Quaternion.identity);
 
-
         //Assign audioclip
         audioSource.clip = audioClip;
-
 
         //play sound
         audioSource.Play();
 
-
         //get lenght of sound fx clip
         float clipLenght = audioSource.clip.length;
-
 
         //destroy object
         Destroy(audioSource.gameObject, clipLenght);
@@ -58,18 +54,14 @@ public class SoundFXManager : MonoBehaviour
         //spawn in gameObject
         AudioSource audioSource = Instantiate(soundFXObject, spawnTransform.position, Quaternion.identity);
 
-
         //Assign audioclip
         audioSource.clip = audioClip[rand];
-
 
         //play sound
         audioSource.Play();
 
-
         //get lenght of sound fx clip
         float clipLenght = audioSource.clip.length;
-
 
         //destroy object
         Destroy(audioSource.gameObject, clipLenght);

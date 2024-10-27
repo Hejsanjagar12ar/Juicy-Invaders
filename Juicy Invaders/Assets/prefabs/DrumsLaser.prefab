@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 2447742584546003261}
   - component: {fileID: -4913401229495899997}
   - component: {fileID: -5827478945886566899}
-  m_Layer: 7
+  - component: {fileID: 2859638509329299549}
+  m_Layer: 11
   m_Name: DrumsLaser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,3 +159,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2859638509329299549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14764177250191244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bec011b8c0364e42aad31f39b110de7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 15

@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 4175978162081436200}
   - component: {fileID: -8985835014475541173}
   - component: {fileID: 5063711098690655869}
-  m_Layer: 7
+  - component: {fileID: 6531663884519090710}
+  m_Layer: 10
   m_Name: SaxLaser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,3 +159,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6531663884519090710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5936500131219107128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bec011b8c0364e42aad31f39b110de7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 7

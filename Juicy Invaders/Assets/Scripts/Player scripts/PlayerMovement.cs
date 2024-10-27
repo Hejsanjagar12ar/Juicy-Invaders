@@ -43,8 +43,6 @@ public class PlayerMovement : MonoBehaviour
             {
                 {
                     movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal") * 2, 0f, 0f);
-
-                    StartCoroutine(cameraShake.Shake(0.5f, 0.2f));
                 }
             }
 
@@ -52,8 +50,6 @@ public class PlayerMovement : MonoBehaviour
             if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1)
             {
                 movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
-
-                StartCoroutine(cameraShake.Shake(0.5f, 0.2f));
             }                  
         }
         

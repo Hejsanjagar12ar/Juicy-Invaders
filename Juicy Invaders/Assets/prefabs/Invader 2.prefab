@@ -72,6 +72,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7093094939483722939, guid: 9078e80d59611f94c8e7a365895eced2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
